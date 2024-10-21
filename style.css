@@ -1,0 +1,207 @@
+*,
+ html {
+    margin: 0;
+    padding: 0;
+ }
+ 
+.container-navbar {
+background-color: gold;
+width: 100%;
+height: 10vh;
+}
+
+.ul-navbar {
+height:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#biodata {
+background-color: bisque;
+width: 500px;
+height: 500px;
+}
+.li-navbar:hover {
+    background-color:white;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
+    border-radius: 8px;
+}
+.a-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.container-content {
+background-image: url(aidb.jpg);
+display: grid;
+justify-content: center;
+align-items: center;
+height: 210vh;
+}
+
+.materi {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin-top:50px ;
+}
+.a-content {
+    width: 720px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 40px; 
+    border-radius:10px ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.p-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-content {
+    width: 100%;
+    height: 100vh;
+}
+.p-footer {
+background-color: yellow;
+display: flex;
+justify-content: center;
+align-items: center; 
+font-size: 20px;
+height: 10vh;
+}
+
+.solid{
+    background-color: white;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+    width: auto;
+    padding: 40px;
+    border: 2px solid yellow;
+}
+.solid span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.aktif{
+    background-color: white;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+    width: auto;
+    padding: 40px;
+    border: 2px solid yellow; 
+    
+}
+
+.aktif span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.kreatif{
+    background-color: white;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+    width: auto;
+    padding: 40px;
+    border: 2px solid yellow; 
+}
+.kreatif span {
+    font-size: 24px;
+    font-weight:700 ;
+}
+
+.transformatif {
+    background-color: white;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+    width: auto;
+    padding: 40px;
+    border: 2px solid yellow; 
+}
+.transformatif span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.islami {
+    background-color: white;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    height: 200px;
+    width: auto;
+    padding: 40px;
+    border: 2px solid yellow; 
+}
+
+.islami span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pesanForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h4-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 40px; 
+    border-radius:10px ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);  
+}
